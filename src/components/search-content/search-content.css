@@ -1,0 +1,58 @@
+.playlist-content-main_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-tracks-noplaylist {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-tracks-noplaylist-text {
+    color: white;
+    font-size: x-large;
+}
+  
+.playlist-content {
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    padding: 0px 0px 30px 10px;
+}
+
+.playlist-content-img {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.playlist-content-text {
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.playlist-content-text-title {
+    color: white;
+    font-size: 4vh;
+}
+
+.playlist-content-text-desc {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.playlist-content-text-author {
+    color: white;
+    font-size: 16px;
+}

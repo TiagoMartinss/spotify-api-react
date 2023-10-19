@@ -1,0 +1,58 @@
+.track-item {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.track-item-child {
+    flex: 1;
+    color: white;
+}
+
+.track-item-number {
+    color: white;
+    margin-right: 15px;
+    min-width: 25px;
+    text-align: right;
+}
+
+.track-item-img {
+    height: 5vh;
+    width: 5vh;
+    margin-right: 10px;
+}
+
+.track-item-tt {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+.track-item-tt-title {
+    color: white;
+}
+
+.track-item-tt-author {
+    color: rgb(160, 160, 160);
+    font-size: small;
+}
+
+.track-item-album {
+    color: rgb(160, 160, 160);
+    font-size: small;
+}
+
+.track-item-date {
+    color: rgb(160, 160, 160);
+    font-size: small;
+}
+
+.track-item-duration {
+    color: rgb(160, 160, 160);
+    font-size: small;
+    text-align: center;
+}

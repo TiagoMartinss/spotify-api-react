@@ -1,0 +1,28 @@
+.playlist-item {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.playlist-item-img {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.playlist-item-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.playlist-item-text-title {
+    color: white;
+}
+
+.playlist-item-text-author {
+    color: rgba(255, 255, 255, 0.774);
+}
